@@ -1,0 +1,30 @@
+html, body {
+    font-family: 'Pacifico', cursive;
+    background-color: #eaeaea;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+.logo {
+    width: 350px;
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+}
+
+/* Medium devices (desktops, 750px and up) */
+
+@media (min-width: 750px) {
+    .logo {
+        width: 750px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 1080;
+        padding-top: 20px;
+    }
+}
